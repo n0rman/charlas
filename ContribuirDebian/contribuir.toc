@@ -1,0 +1,7 @@
+\beamer@endinputifotherversion {3.10pt}
+\select@language {spanish}
+\beamer@sectionintoc {1}{Introducci\'on}{3}{0}{1}
+\beamer@sectionintoc {2}{Maneras de contribuir}{11}{0}{2}
+\beamer@sectionintoc {3}{Razones para contribuir}{46}{0}{3}
+\beamer@sectionintoc {4}{Gracias}{61}{0}{4}
+\beamer@sectionintoc {5}{Gracias}{62}{0}{5}
