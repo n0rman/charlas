@@ -1,0 +1,6 @@
+\beamer@endinputifotherversion {3.10pt}
+\select@language {spanish}
+\beamer@sectionintoc {1}{Introducci\'on}{3}{0}{1}
+\beamer@sectionintoc {2}{M\'as sobre Debian Edu}{14}{0}{2}
+\beamer@sectionintoc {3}{Razones para contribuir}{34}{0}{3}
+\beamer@sectionintoc {4}{Gracias}{50}{0}{4}
