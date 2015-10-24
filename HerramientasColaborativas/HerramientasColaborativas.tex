@@ -1,0 +1,211 @@
+%Esta charla puede ser descargada en https://github.com/n0rman/charlas/blob/master/HerramientasColaborativas/HerramientasColaborativass.tex
+%Autor: Norman GArcía Aguilar norman@debian.org.ni
+
+\documentclass{beamer}
+%\usepackage[latin1]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usetheme{Warsaw}
+\title{Herramientas colaborativas para el desarrollo de software}
+\author[n0rman]{Norman Garc\'ia \\ \texttt{norman@debian.org.ni}}
+\institute{Debian Nicaragua}
+\date{Octubre 24, 2015}
+%\showboxdepth=5
+%\showboxbreadth=5
+\begin{document}
+
+
+\begin{frame}
+	\titlepage
+\end{frame}
+
+\begin{frame}{Contenido}
+	\tableofcontents
+\end{frame}
+
+
+\section{Introducci\'on}
+
+\begin{frame}
+\frametitle{?`Qu\'e es una Herramienta de trabajo colaborativo?}
+        
+	\begin{itemize}
+        \pause \item Utilizada para comunicarse entre personas.
+		\pause \item Una manera de acortar distancias.
+		\pause \item Trabajo en conjunto.
+       \end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Tipos de herramientas}
+	\begin{enumerate}
+		\pause \item Herramientas web no gestionadas.
+		\begin{itemize}
+			\pause \item No tenemos que preocuparnos por implementaci\'on y mantenimiento.
+			\pause \item \alert{¡GRATIS!} y muchas veces no libres.
+			\pause \item Algunas veces se necesita pagar para tener mejores funcionalidades.
+		\end{itemize}
+		\pause \item Herramientas web auto gestionadas.
+		\begin{itemize}
+			\pause \item \alert{¡LIBRES!}
+			\pause \item Con todas las funcionalidades completas.
+			\pause \item Podemos ajustarlas a nuestras necesidades.
+			\pause \item Necesitamos dedicar hardware propio.
+		\end{itemize}
+    \end{enumerate}
+    
+\end{frame}
+ 
+\section{Gesti\'on de c\'odigo fuente}
+
+\begin{frame}
+\frametitle{Github}    
+        \begin{center}
+                 \includegraphics[scale=0.50]{../img/github-logo-600x270.png}
+        \end{center}
+		\begin{itemize}
+			\pause \item Plataforma de hospedaje de proyectos.
+			\pause \item Muchas funcionalidades: Wiki, Sitio web, est\'adisticas.
+		\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Bitbucket}
+		\begin{itemize}
+			\pause \item Plataforma de hospedaje de proyectos.
+			\pause \item Integraci\'on con JIRA.
+			\pause \item Wikis
+		\end{itemize}
+		\begin{center}
+                 \includegraphics[scale=0.50]{../img/bitbucket.png}
+        \end{center}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Gitosis/Gitweb}
+\begin{itemize}
+			\pause \item Gitosis es una herramienta para control de acceso a repositorios Git.
+			\pause \item Gitweb es una interfaz gr\'afica para visualizar repositorios Git.
+			\pause \item Acceso sobre ssh.
+			\pause \item Se requiere instalar en un equipo propio.
+		\end{itemize}
+        \begin{center}
+                 \includegraphics[scale=0.50]{../img/gitweb.png}
+        \end{center}
+\end{frame}
+
+\section {Tracking}
+
+\begin{frame}
+\frametitle{Trello}
+		\begin{itemize}
+			\pause \item Sistema no gestionado.
+			\pause \item Aplicaci\'on web para manejo de proyectos.
+		\end{itemize}
+		\begin{center}
+                 \includegraphics[scale=0.50]{../img/trello-calendar.jpg}
+        \end{center}
+		
+\end{frame}
+
+\begin{frame}
+\frametitle{Waken}
+		\begin{itemize}
+			\pause \item Sistema autogestionado.
+			\pause \item Aplicaci\'on web para manejo de proyectos (versi\'on \alert{libre} de Trello).
+ 		\end{itemize}
+		\begin{center}
+                 \includegraphics[scale=0.50]{../img/wekan.png}
+        \end{center}
+	
+\end{frame}
+
+\begin{frame}
+\frametitle{Trac}
+		\begin{itemize}
+			\pause \item Sistema autogestionado y \alert{libre}.
+			\pause \item Integra wiki con gesti\'on de reporte de fallos.
+			\pause \item Provee interfaz web para svn y git.
+ 		\end{itemize}
+		\begin{center}
+                 \includegraphics[scale=0.50]{../img/orzone_trac_kanban_dashboard.png}
+        \end{center}
+	
+\end{frame}
+
+
+
+\section{Documentaci\'on}
+
+\begin{frame}
+\frametitle{Wiki}    
+		\begin{itemize}
+			\pause \item Utilizado para creaci\'on y administraci\'on de documentaci\'on.
+			\pause \item Wikispaces, wikia...
+			\pause \item ... o una instancia mediawiki en tus servidores.
+ 		\end{itemize}
+
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Sphinx}    
+		\begin{itemize}
+			\pause \item Herramienta para creaci\'on de documentaci\'on.
+			\pause \item Formatos de s\'alida variadas (HTML, LaTeX, Pub, texto plano). 
+			\pause \item Utilizado por proyectos como django, pip, blender, ubuntu.
+ 		\end{itemize}
+
+\end{frame}
+
+
+\section{Comunicaci\'on}
+\begin{frame}
+	\frametitle{As\'incrona}
+		\begin{itemize}
+			\pause \item Discusi\'on p\'ublica y transparente.
+			\pause \item Nos permite tener discusiones t\'ecnicas y mantener a nuestros usuarios informados.
+		\end{itemize}
+       \begin{center}
+                 \includegraphics[scale=0.50]{../img/debianMl.png}
+        \end{center}
+\end{frame}
+
+\begin{frame}
+\frametitle{S\'incrona}
+	\begin{itemize}
+		\pause \item \alert{I}nternet \alert{R}elay \alert{C}hat
+		\pause \item Jit.si
+	\end{itemize}
+\end{frame}
+	
+
+\begin{frame}
+	\frametitle{Y muchos más}    
+	\begin{itemize}
+	\pause \item FusionForgee, Launchpad.
+	\pause \item Redmine, Asana, Taiga.io, JIRA.
+	\pause \item ?`Qu\'e otras conoc\'es?
+	\end{itemize}
+\end{frame}
+
+\section{Gracias}
+
+
+\begin{frame}
+\frametitle{FIN}
+	\begin{enumerate}
+		\item Presentaci\'on: Herramientas colaborativas para el desarrollo de software.
+		\item Presentado por: Norman Garc\'ia  \texttt{norman@debian.org.ni}
+		\item Octubre 24, 2015
+		\item Licencia: Creative Commons Atribuci\'on-CompartirIgual 3.0 Unported (CC BY-SA 3.0)
+	\end{enumerate}
+
+	\begin{center}
+  		 \includegraphics[scale=0.20]{../img/cclogo.png}
+	\end{center}
+
+\end{frame}
+\end{document}
